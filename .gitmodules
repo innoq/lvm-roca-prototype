@@ -13,3 +13,6 @@
 [submodule "lvm-las-assets"]
 	path = lvm-las-assets
 	url = git@github.com:innoq/lvm-las-assets.git
+[submodule "prototype-backend"]
+	path = prototype-backend
+	url = git@github.com:innoq/prototype-backend.git
