@@ -1,0 +1,15 @@
+[submodule "lvm-las-roca"]
+	path = lvm-las-roca
+	url = git@github.com:innoq/lvm-las-roca.git
+[submodule "lvm-las-damage"]
+	path = lvm-las-damage
+	url = git@github.com:innoq/lvm-las-damage.git
+[submodule "lvm-las-letter"]
+	path = lvm-las-letter
+	url = git@github.com:innoq/lvm-las-letter.git
+[submodule "lvm-las-postbox"]
+	path = lvm-las-postbox
+	url = git@github.com:innoq/lvm-las-postbox.git
+[submodule "lvm-las-assets"]
+	path = lvm-las-assets
+	url = git@github.com:innoq/lvm-las-assets.git
