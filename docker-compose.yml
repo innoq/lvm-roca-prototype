@@ -20,6 +20,7 @@ services:
     volumes:
       - ./lvm-las-roca:/home/app
       - /home/app/node_modules
+      - /home/app/public
     environment:
       - PORT=3000
       - BACKEND_HOST=backend
@@ -36,6 +37,7 @@ services:
     volumes:
       - ./lvm-las-postbox:/home/app
       - /home/app/node_modules
+      - /home/app/src/main/resources/static
     environment:
       - SERVER_PORT=3001
       # - LAS_REST_SERVICE_URL=http://backend:8080
@@ -50,6 +52,7 @@ services:
     volumes:
       - ./lvm-las-letter:/home/app
       - /home/app/node_modules
+      - /home/app/public
     environment:
       - PORT=3002
       - BACKEND_HOST=backend
@@ -65,6 +68,7 @@ services:
     volumes:
       - ./lvm-las-damage:/home/app
       - /home/app/node_modules
+      - /home/app/public
     environment:
       - PORT=3003
       - BACKEND_HOST=backend
