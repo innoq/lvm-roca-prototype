@@ -6,15 +6,16 @@ Meta-repository to start lvm roca-prototype in a automated, dockerized environme
 Prerequisites
 --------------
 
-* make sure you have docker installed (see https://docs.docker.com/engine/installation/)
+* make sure you have docker (see https://docs.docker.com/engine/installation) and docker-compose (see https://docs.docker.com/compose/install) installed
 
 
 Getting started
 ---------------
 
 1. clone this repository
-2. run `docker-compose up` (and grab a cup of coffee)
-3. visit http://localhost:3000
+2. run `git submodule update --init`
+3. run `docker-compose up` (and grab a cup of coffee)
+4. visit http://localhost:3000
 
 
 Applications
