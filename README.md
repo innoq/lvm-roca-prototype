@@ -13,15 +13,16 @@ Getting started
 ---------------
 
 1. clone this repository
-2. run `git submodule update --init`
-3. run `docker-compose up` (and grab a cup of coffee)
-4. visit http://localhost:3000
+2. `cd lvm-roca-prototype`
+3. run `git submodule update --init`
+4. run `docker-compose up` (and grab a cup of coffee)
+5. visit http://localhost:3000
 
 
 Applications
 ------------
 
-LVM roca-prototype consist of 5 different apps (mounted as git submodule). Each app is running in it's own docker container.
+LVM roca-prototype consist of 5 different apps (mounted as git submodule). Each app is running in its own docker container.
 
 1. lvm-las-roca: Main app and entrypoint (node/express)
   * visit http://localhost:3000
