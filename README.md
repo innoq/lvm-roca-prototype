@@ -1,7 +1,9 @@
 LVM-ROCA-prototype
 ==================
 
-Meta-repository to start lvm roca-prototype in a automated, dockerized environment.
+Meta-repository to start lvm roca-prototype in a automated, dockerized environment.  
+
+**!This project was rebranded. The most recent version can be found [here as crimson assurance](https://github.com/crimson-assurance).**
 
 Prerequisites
 --------------
